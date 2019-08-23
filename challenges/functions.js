@@ -7,7 +7,7 @@
   * In the body of the function return the callback with the two parameters that you created
 */
 function consume (a, b, cb) {
-  return cb (a, b, cb);
+  return cb (a, b)
 }
 
 
@@ -18,11 +18,11 @@ function consume (a, b, cb) {
 */
 
 function add (x, y) {
-  return ( x + y);
+  return  x + y;
 }
 
 function multiply (x, y) {
-  return ( x * y);
+  return x * y;
 }
 
 function greeting (first_name, last_name) {
